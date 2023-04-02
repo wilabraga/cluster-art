@@ -1,0 +1,22 @@
+#credits-modal {
+    height: auto;
+    width: auto;
+}
+
+#credits-header {
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.credits-modal-contents {
+    padding: 24px;
+    display: block;
+    margin: auto;
+}
+
+.modal-okay-button {
+    width: auto;
+    display: block;
+    margin: auto;
+}

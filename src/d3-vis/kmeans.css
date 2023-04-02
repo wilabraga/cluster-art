@@ -1,0 +1,10 @@
+#panel-wrapper {
+    width: 35%;
+}
+
+#loader {
+    display: block;
+    text-align: center;
+    padding: 24px;
+}
+

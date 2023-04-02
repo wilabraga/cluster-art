@@ -1,0 +1,43 @@
+.corner-menu {
+    padding: 48px;
+    transition: .5s;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 48px;
+    z-index: 5;
+    border: gray solid 1px;
+    width: auto;
+    height: auto;
+    opacity: 0.25;
+    display: block;
+    background-color: white;
+}
+
+.corner-menu:hover {
+    transition: .5s;
+    opacity: 0.8;
+}
+
+.logo-flex {
+    align-content: center;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+.links {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    padding: 4px;
+}
+
+.link:hover {
+    cursor: help;
+}

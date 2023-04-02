@@ -1,0 +1,39 @@
+#panel-container {
+    width: 24rem;
+    position: absolute;
+    /*padding-bottom: 100%;*/
+    right: 48px;
+    top: 48px;
+    z-index: 5;
+    /*filter: blur(10px);*/
+    /*opacity: 0.5;*/
+}
+
+.expanded {
+    /*opacity: 1;*/
+    transition: 1s;
+    opacity: 0.9;
+}
+
+.condensed {
+    opacity: 0.5;
+    transition: 1s;
+}
+
+.condensed:hover {
+    opacity: 0.8;
+    transition: 1s;
+}
+
+/*#panel-container::before {*/
+/*    filter: blur(10px);*/
+/*    opacity: 0.5;*/
+/*}*/
+
+.card .card-subtitle {
+    margin: 0 0 8px !important;
+}
+
+.form-control {
+    margin: 0 0 24px !important;
+}

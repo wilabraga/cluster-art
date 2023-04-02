@@ -1,0 +1,30 @@
+#legend-container {
+    position: absolute;
+    right: 48px;
+    bottom: 48px;
+    border: gray solid 1px;
+    height: 72px;
+    display: block;
+    padding: 8px;
+    text-align: center;
+    opacity: 0.25;
+    transition: 0.5s;
+    min-width: 100px;
+    background-color: white;
+}
+
+#legend-container:hover {
+    opacity: 0.8;
+    transition: 0.5s
+}
+
+#legend-points {
+    display: flex;
+}
+
+.legend-point {
+    border-radius: 10px;
+    height: 8px;
+    width: 8px;
+    margin: 8px auto 16px;
+}
